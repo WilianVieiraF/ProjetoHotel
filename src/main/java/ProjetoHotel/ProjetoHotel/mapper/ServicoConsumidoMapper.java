@@ -1,7 +1,7 @@
-package com.example.hotel.mapper;
+package ProjetoHotel.ProjetoHotel.mapper;
 
-import com.example.hotel.dto.ServicoConsumidoDTO;
-import com.example.hotel.entity.ServicoConsumido;
+import ProjetoHotel.ProjetoHotel.dto.ServicoConsumidoDTO;
+import ProjetoHotel.ProjetoHotel.entity.ServicoConsumido;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
@@ -14,7 +14,7 @@ public interface ServicoConsumidoMapper {
     @Mapping(source = "hospede.id", target = "hospede.id")
     @Mapping(source = "hospede.nome", target = "hospede.nome")
     @Mapping(source = "servico.id", target = "servico.id")
-    @Mapping(source = "servico.descricao", target = "servico.descricao")
+    @Mapping(source = "servico.descricao", target = "servico.nome") // Corrected mapping
     ServicoConsumidoDTO toDTO(ServicoConsumido entity);
 
     @Mapping(target = "id", ignore = true)

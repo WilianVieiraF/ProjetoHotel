@@ -1,4 +1,4 @@
-package com.example.hotel.dto;
+package ProjetoHotel.ProjetoHotel.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

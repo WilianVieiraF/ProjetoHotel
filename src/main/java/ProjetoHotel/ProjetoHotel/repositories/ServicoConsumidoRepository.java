@@ -1,6 +1,6 @@
-package com.example.hotel.repositories;
+package ProjetoHotel.ProjetoHotel.repositories;
 
-import com.example.hotel.entity.ServicoConsumido;
+import ProjetoHotel.ProjetoHotel.entity.ServicoConsumido;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,10 +1,10 @@
-package com.example.hotel.services;
+package ProjetoHotel.ProjetoHotel.services;
 
-import com.example.hotel.dto.QuartoDTO;
-import com.example.hotel.entity.Quarto;
-import com.example.hotel.mapper.QuartoMapper;
-import com.example.hotel.repositories.QuartoRepository;
-import com.example.hotel.exceptions.ResourceNotFoundException;
+import ProjetoHotel.ProjetoHotel.dto.QuartoDTO;
+import ProjetoHotel.ProjetoHotel.entity.Quarto;
+import ProjetoHotel.ProjetoHotel.mapper.QuartoMapper;
+import ProjetoHotel.ProjetoHotel.repositories.QuartoRepository;
+import ProjetoHotel.ProjetoHotel.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

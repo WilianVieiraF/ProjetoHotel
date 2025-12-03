@@ -1,5 +1,6 @@
-package com.example.hotel.entity;
+package ProjetoHotel.ProjetoHotel.entity;
 
+import ProjetoHotel.ProjetoHotel.enums.StatusQuarto; // Added import statement
 import jakarta.persistence.*;
 
 @Entity

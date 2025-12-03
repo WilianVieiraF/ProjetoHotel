@@ -1,4 +1,4 @@
-package com.example.hotel.dto;
+package ProjetoHotel.ProjetoHotel.dto;
 
 import jakarta.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonProperty;

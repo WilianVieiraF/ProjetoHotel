@@ -1,7 +1,7 @@
-package com.example.hotel.resources;
+package ProjetoHotel.ProjetoHotel.resources;
 
-import com.example.hotel.dto.HospedeDTO;
-import com.example.hotel.services.HospedeService;
+import ProjetoHotel.ProjetoHotel.dto.HospedeDTO;
+import ProjetoHotel.ProjetoHotel.services.HospedeService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

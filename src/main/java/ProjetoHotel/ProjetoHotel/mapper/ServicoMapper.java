@@ -1,7 +1,7 @@
-package com.example.hotel.mapper;
+package ProjetoHotel.ProjetoHotel.mapper;
 
-import com.example.hotel.dto.ServicoDTO;
-import com.example.hotel.entity.Servico;
+import ProjetoHotel.ProjetoHotel.dto.ServicoDTO;
+import ProjetoHotel.ProjetoHotel.entity.Servico;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;

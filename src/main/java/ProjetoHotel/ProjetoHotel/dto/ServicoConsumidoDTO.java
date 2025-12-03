@@ -1,6 +1,6 @@
-package com.example.hotel.dto;
+package ProjetoHotel.ProjetoHotel.dto;
 
-import com.example.hotel.entity.ServicoConsumido;
+import ProjetoHotel.ProjetoHotel.entity.ServicoConsumido;
 import jakarta.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 

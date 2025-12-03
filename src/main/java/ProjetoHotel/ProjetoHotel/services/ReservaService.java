@@ -1,10 +1,10 @@
-package com.example.hotel.services;
+package ProjetoHotel.ProjetoHotel.services;
 
-import com.example.hotel.dto.ReservaDTO;
-import com.example.hotel.entity.Reserva;
-import com.example.hotel.mapper.ReservaMapper;
-import com.example.hotel.repositories.ReservaRepository;
-import com.example.hotel.exceptions.ResourceNotFoundException;
+import ProjetoHotel.ProjetoHotel.dto.ReservaDTO;
+import ProjetoHotel.ProjetoHotel.entity.Reserva;
+import ProjetoHotel.ProjetoHotel.mapper.ReservaMapper;
+import ProjetoHotel.ProjetoHotel.repositories.ReservaRepository;
+import ProjetoHotel.ProjetoHotel.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

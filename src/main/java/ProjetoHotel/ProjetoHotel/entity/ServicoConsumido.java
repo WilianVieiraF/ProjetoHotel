@@ -1,4 +1,4 @@
-package com.example.hotel.entity;
+package ProjetoHotel.ProjetoHotel.entity;
 
 import jakarta.persistence.*;
 

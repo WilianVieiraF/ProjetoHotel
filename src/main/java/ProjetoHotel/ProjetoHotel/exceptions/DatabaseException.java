@@ -1,4 +1,4 @@
-package com.example.hotel.exceptions;
+package ProjetoHotel.ProjetoHotel.exceptions;
 
 public class DatabaseException extends RuntimeException {
     public DatabaseException(String msg) {

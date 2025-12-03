@@ -1,4 +1,4 @@
-package com.example.hotel.enums;
+package ProjetoHotel.ProjetoHotel.enums;
 
 public enum StatusQuarto {
 
